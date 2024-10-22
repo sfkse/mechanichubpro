@@ -1,13 +1,420 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mechanic Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Semantic tags. I will have navbar, hero section and some sections that explains the product -->
+    <header>
+        <div>
+            <img src="./images/logo.png" alt="Mechanic Hub">
+            <nav>
+                <ul>
+                    <li><a href="#key-value">Key Value</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#why-us">Why Us</a></li>
+                    <li><a href="#faqs">FAQs</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#form">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#form">JOIN</a>
+        </div>
+    </header>
+    <section id="hero">
+        <div id="hero-image-wrapper">
+            <div id="hero-image-left">
+                <img src="./images/owner-image.png" alt="Mechanic Hub">
+            </div>
+            <div id="hero-image-right">
+                <img src="./images/mechanic-image.png" alt="Mechanic Hub">
+            </div>
+        </div>
+        <div id="hero-overlay">
+            <div id="hero-content-container">
+                <h1>Connecting You with Trusted Mechanics Anytime, Anywhere</h1>
+                <p>Find Reliable Mechanics, Get Instant Help, and Keep Your Car Running Smoothly with MechanicHub</p>
+                <div id="hero-button-container">
+                    <a class="primary-button" href="#form">FIND MECHANICS</a>
+                    <a class="secondary-button" href="#form">JOIN AS A MECHANIC</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="key-value">
+        <div id="key-value-content">
+            <h1 class="section-header">Your Go-To Platform for All <span class="highlight-text">Car Care</span> Needs
+            </h1>
+            <h4>For Car Owners</h4>
+            <p>
+                <img src="./images/option.svg" alt="Key"> Quickly connect with certified mechanics offering a range of
+                services
+            </p>
+            <p>
+                <img src="./images/option.svg" alt="Key"> Get quotes, compare profiles, and choose the best fit for your
+                needs
+            </p>
+            <h4>For Mechanics</h4>
+            <p>
+                <img src="./images/option.svg" alt="Key"> Expand your customer base and grow your business
+            </p>
+            <p>
+                <img src="./images/option.svg" alt="Key"> Offer your services directly to customers seeking help
+            </p>
+        </div>
+        <div id="key-value-image">
+            <img src="./images/key-value-image.svg" alt="Mechanic Hub">
+        </div>
+    </section>
+    <section id="how-it-works">
+        <div class="content-card">
+            <p>How It Works</p>
+            <h1 class="section-header text-center">Simple, Fast, and <span class="highlight-text">Reliable</span></h1>
+            <div class="car-owner">
+                <div class="car-owner-content-wrapper">
+                    <h4>For Car Owners</h4>
+                    <div class="car-owner-text-wrapper">
+                        <img src="./images/option.svg" alt="Key">
+                        <div>
+                            <h4>Search for Mechanics</h4>
+                            <span>Enter your location and the service you need</span>
+                        </div>
+                    </div>
+                    <div class="car-owner-text-wrapper">
+                        <img src="./images/option.svg" alt="Key">
+                        <div>
+                            <h4>Browse and Compare</h4>
+                            <span>View profiles, ratings, and reviews of available mechanics</span>
+                        </div>
+                    </div>
+                    <div class="car-owner-text-wrapper">
+                        <img src="./images/option.svg" alt="Key">
+                        <div>
+                            <h4>Connect Directly</h4>
+                            <span>Chat or call mechanics to discuss your issue and get quotes</span>
+                        </div>
+                    </div>
+                    <div class="car-owner-text-wrapper">
+                        <img src="./images/option.svg" alt="Key">
+                        <div>
+                            <h4>Book a Service</h4>
+                            <span>Schedule an appointment at your convenience</span>
+                        </div>
+                    </div>
+                    <a class="primary-button" href="#form">FIND A MECHANIC</a>
+                </div>
+                <div class="car-owner-image-wrapper">
+                    <img src="./images/car-owner.svg" alt="Mechanic Hub">
+                </div>
+            </div>
+            <div class="mechanics">
+                <div class="car-owner-image-wrapper">
+                    <img src="./images/mechanic.svg" alt="Mechanic Hub">
+                </div>
+                <div class="car-owner-content-wrapper">
+                    <h4>For Car Owners</h4>
+                    <div class="car-owner-text-wrapper">
+                        <img src="./images/option.svg" alt="Key">
+                        <div>
+                            <h4>Search for Mechanics</h4>
+                            <span>Enter your location and the service you need</span>
+                        </div>
+                    </div>
+                    <div class="car-owner-text-wrapper">
+                        <img src="./images/option.svg" alt="Key">
+                        <div>
+                            <h4>Browse and Compare</h4>
+                            <span>View profiles, ratings, and reviews of available mechanics</span>
+                        </div>
+                    </div>
+                    <div class="car-owner-text-wrapper">
+                        <img src="./images/option.svg" alt="Key">
+                        <div>
+                            <h4>Connect Directly</h4>
+                            <span>Chat or call mechanics to discuss your issue and get quotes</span>
+                        </div>
+                    </div>
+                    <div class="car-owner-text-wrapper">
+                        <img src="./images/option.svg" alt="Key">
+                        <div>
+                            <h4>Book a Service</h4>
+                            <span>Schedule an appointment at your convenience</span>
+                        </div>
+                    </div>
+                    <a class="primary-button" href="#form">JOIN AS A MECHANIC</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="why-us">
+        <div id="why-us-content">
+            <h1>Why Choose MechanicHub</h1>
+            <h4>For Car Owners</h4>
+            <div id="why-us-content-text-wrapper">
+                <img src="./images/shield.svg" alt="Key">
+                <div>
+                    <h4>Trusted Mechanics</h4>
+                    <span>Sign up and showcase your skills, experience, and services offered</span>
+                </div>
+            </div>
+            <div id="why-us-content-text-wrapper">
+                <img src="./images/shield.svg" alt="Key">
+                <div>
+                    <h4>Direct Communication</h4>
+                    <span>Message or call mechanics directly within the app for quick responses</span>
+                </div>
+            </div>
+            <div id="why-us-content-text-wrapper">
+                <img src="./images/shield.svg" alt="Key">
+                <div>
+                    <h4>Transparent Pricing</h4>
+                    <span>Compare quotes and choose services that fit your budget</span>
+                </div>
+            </div>
+            <div id="why-us-content-text-wrapper">
+                <img src="./images/shield.svg" alt="Key">
+                <div>
+                    <h4>Wide Range of Services</h4>
+                    <span>From routine maintenance to emergency repairs, find experts for every need</span>
+                </div>
+            </div>
+            <div id="why-us-content-text-wrapper">
+                <img src="./images/shield.svg" alt="Key">
+                <div>
+                    <h4>Secure Payments</h4>
+                    <span>Convenient and secure in-app payment options</span>
+                </div>
+            </div>
+            <h4>For Mechanics</h4>
+            <div id="why-us-content-text-wrapper">
+                <img src="./images/shield.svg" alt="Key">
+                <div>
+                    <h4>Easy Client Acquisition</h4>
+                    <span>Access a steady stream of customers without expensive advertising</span>
+                </div>
+            </div>
+            <div id="why-us-content-text-wrapper">
+                <img src="./images/shield.svg" alt="Key">
+                <div>
+                    <h4>Flexible Work</h4>
+                    <span>Set your own hours and service areas</span>
+                </div>
+            </div>
+            <div id="why-us-content-text-wrapper">
+                <img src="./images/shield.svg" alt="Key">
+                <div>
+                    <h4>Professional Tools</h4>
+                    <span>Manage bookings, payments, and customer interactions all in one place</span>
+                </div>
+            </div>
+        </div>
+        <div id="why-us-image">
+            <img src="./images/why-us.svg" alt="Mechanic Hub">
+        </div>
+
+    </section>
+    <section id="get-started">
+        <div class="content-card">
+            <div id="get-started-content">
+                <div id="get-started-content-text-wrapper">
+                    <h1 class="section-header">Get Started With <span class="highlight-text">MehanicHub</span>
+                        Today!
+                    </h1>
+                    <p>Join now and be part of the community that's revolutionizing car care</p>
+
+                    <div id="hero-button-container">
+                        <a class="primary-button" href="#form">FIND MECHANICS</a>
+                        <a class="secondary-button" href="#form">JOIN AS A MECHANIC</a>
+                    </div>
+                </div>
+                <div id="get-started-image-wrapper">
+                    <img src="./images/get-started.svg" alt="Mechanic Hub">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="faqs">
+        <div id="faq-header-wrapper">
+            <h1 class="section-header">Frequently Asked <span class="highlight-text">Questions</span></h1>
+            <div class="switch-container">
+                <button class="switch-button for-owners">For Car Owners</button>
+                <button class="switch-button for-mechanics">For Mechanics</button>
+            </div>
+        </div>
+        <!-- Car Owners FAQs -->
+        <div class="faq-content owners-faq">
+            <button type="button" class="collapsible">
+                <div><span>How do I know the mechanics are trustworthy?</span>+</div>
+            </button>
+            <div class="content">
+                <p>We verify all mechanics through a thorough background check and customer reviews.</p>
+            </div>
+            <button type="button" class="collapsible">
+                <div><span>Can I get quotes from multiple mechanics?</span>+</div>
+            </button>
+            <div class="content">
+                <p>You can request a service through the app by filling in your car details and choosing a mechanic.</p>
+            </div>
+            <button type="button" class="collapsible">
+                <div><span>Is there a fee to join the platform?</span>+</div>
+            </button>
+            <div class="content">
+                <p>Prices depend on the service, but you can compare quotes from multiple mechanics before choosing one.
+                </p>
+            </div>
+            <button type="button" class="collapsible">
+                <div><span>How do I get paid?</span>+</div>
+            </button>
+            <div class="content">
+                <p>Prices depend on the service, but you can compare quotes from multiple mechanics before choosing one.
+                </p>
+            </div>
+        </div>
+
+        <!-- Mechanics FAQs -->
+        <div class="faq-content mechanics-faq" style="display: none;">
+            <button type="button" class="collapsible">
+                <div><span>How do I know the mechanics are trustworthy?</span>+</div>
+            </button>
+            <div class="content">
+                <p>You can sign up by providing your service details and submitting your verification documents.</p>
+            </div>
+            <button type="button" class="collapsible">
+                <div><span>How do I know the mechanics are trustworthy?</span>+</div>
+            </button>
+            <div class="content">
+                <p>Payments are made directly into your bank account after each completed job through our secure system.
+                </p>
+            </div>
+            <button type="button" class="collapsible">
+                <div><span>How do I know the mechanics are trustworthy?</span>+</div>
+            </button>
+            <div class="content">
+                <p>Yes, you have full control over your pricing and can adjust rates as needed based on services
+                    offered.</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="pricing">
+        <h1 class="section-header text-center">Flexible <span class="highlight-text">Pricing</span> Options</h1>
+        <div id="pricing-content">
+            <div id="owners-pricing">
+                <div>
+                    <h4>For Car Owners</h4>
+                    <p>Access the platform for free. Pay only for the services you book, with no hidden fees.</p>
+                </div>
+                <a href="#form" class="primary-button green">Choose your plan</a>
+            </div>
+            <div id="mechanics-pricing">
+                <h4>For mechanics</h4>
+                <div id="mechanics-pricing-content-wrapper">
+                    <div id="basic-plan-column">
+                        <div id="basic-plan-content-wrapper">
+                            <div id="icon-wrapper">
+                                <img src="./images/basic-plan.svg" alt="Basic Plan">
+                            </div>
+                            <div id="plan-details">
+                                <p>Basic Plan</p>
+                                <p>Free to join, standard commission on services booked through the app</p>
+                            </div>
+                        </div>
+                        <a href="#form" class="secondary-button">Choose Your Plan</a>
+                    </div>
+                    <div id="premium-plan-column">
+                        <div id="premium-plan-content-wrapper">
+                            <div id="icon-wrapper">
+                                <img src="./images/premium-plan.svg" alt="Premium Plan">
+                            </div>
+                            <div id="plan-details">
+                                <p>Premium Plan</p>
+                                <p>$14.99/month — Enjoy lower commissions, priority listings, and advanced features.
+                                </p>
+                            </div>
+                        </div>
+                        <a href="#form" class="primary-button">Choose Your Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="form">
+        <div class="content-card">
+            <p>Contact Form</p>
+            <div class="section-header-wrapper">
+                <h1 class="section-header text-center w-55">Stay Ahead - Join Our <span class="highlight-text">Early
+                        Access</span> List
+                </h1>
+            </div>
+            <form>
+                <div id="form-group-wrapper">
+                    <div class="form-group">
+                        <label for="email" class="">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="user-type">Type of user</label>
+                        <select id="user-type" name="user-type" required>
+                            <option value="car-owner">Car Owner</option>
+                            <option value="mechanic">Mechanic</option>
+                        </select>
+                    </div>
+                </div>
+                <a href="#" class="primary-button">Get Exclusive Access</a>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mechanic Hub</p>
+    </footer>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        // FAQ Accordion
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+
+        // Switch functionality
+        const ownersButton = document.querySelector('.for-owners');
+        const mechanicsButton = document.querySelector('.for-mechanics');
+        const ownersFAQ = document.querySelector('.owners-faq');
+        const mechanicsFAQ = document.querySelector('.mechanics-faq');
+        // Add default style to owners button
+        ownersButton.classList.add('active-switch');
+        ownersButton.addEventListener('click', () => {
+            ownersButton.classList.add('active-switch');
+            mechanicsButton.classList.remove('active-switch');
+            ownersFAQ.style.display = "block";
+            mechanicsFAQ.style.display = "none";
+        });
+
+        mechanicsButton.addEventListener('click', () => {
+            mechanicsButton.classList.add('active-switch');
+            ownersButton.classList.remove('active-switch');
+            ownersFAQ.style.display = "none";
+            mechanicsFAQ.style.display = "block";
+        });
+    </script>
+</body>
+
 </html>
