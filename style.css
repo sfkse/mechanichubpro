@@ -787,6 +787,10 @@ footer p {
     flex-direction: column;
   }
 
+  header > div {
+    padding: 1rem 2rem;
+  }
+
   #hero-overlay {
     padding: 0 2rem;
   }
