@@ -791,6 +791,9 @@ footer p {
     padding: 1rem 2rem;
   }
 
+  header a {
+    padding: 8px 12px;
+  }
   #hero-overlay {
     padding: 0 2rem;
   }
