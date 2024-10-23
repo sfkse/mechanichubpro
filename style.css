@@ -791,9 +791,11 @@ footer p {
     padding: 1rem 2rem;
   }
 
-  header a {
+  header .secondary-button {
     padding: 8px 12px;
+    font-size: 0.8rem;
   }
+
   #hero-overlay {
     padding: 0 2rem;
   }
