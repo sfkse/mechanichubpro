@@ -176,7 +176,7 @@ header > a {
 
 /** Key Value  */
 #key-value {
-  padding: 5rem 12rem;
+  padding: 5rem 7rem;
   display: flex;
   justify-content: space-between;
   gap: 2.5rem;
@@ -223,7 +223,7 @@ header > a {
 
 /** How It works */
 #how-it-works {
-  padding: 3rem 12rem;
+  padding: 5rem 7rem;
 }
 
 .car-owner {
@@ -280,7 +280,7 @@ header > a {
 #why-us {
   background-color: var(--primary-color);
   color: white;
-  padding: 5rem 12rem;
+  padding: 5rem 7rem;
   display: flex;
   justify-content: space-between;
   gap: 2.5rem;
@@ -320,7 +320,7 @@ header > a {
 
 /** GET STARTED */
 #get-started {
-  padding: 5rem 12rem;
+  padding: 5rem 7rem;
   gap: 2.5rem;
 }
 
@@ -349,7 +349,7 @@ header > a {
 
 /** FAQ */
 #faqs {
-  padding: 5rem 12rem;
+  padding: 5rem 7rem;
 }
 
 #faq-header-wrapper {
@@ -436,7 +436,7 @@ header > a {
 
 /** PRICING */
 #pricing {
-  padding: 5rem 12rem;
+  padding: 5rem 7rem;
   display: flex;
   flex-direction: column;
 }
@@ -526,7 +526,7 @@ header > a {
 }
 
 #form {
-  padding: 5rem 12rem;
+  padding: 5rem 7rem;
   display: flex;
   justify-content: space-between;
   gap: 2.5rem;
@@ -638,6 +638,13 @@ footer p {
     flex-direction: column;
   }
 
+  #key-value-image img,
+  #why-us-image img,
+  .car-owner-image-wrapper img,
+  #get-started-image-wrapper img {
+    width: 60%;
+  }
+
   #key-value-content {
     width: 100%;
   }
@@ -648,10 +655,6 @@ footer p {
 
   #key-value-image {
     text-align: center;
-  }
-
-  #key-value-image img {
-    width: 100%;
   }
 
   .car-owner {
@@ -672,10 +675,6 @@ footer p {
     text-align: center;
   }
 
-  .car-owner-image-wrapper img {
-    width: 100%;
-  }
-
   #how-it-works .mechanics {
     flex-direction: column;
     flex-flow: column-reverse;
@@ -692,10 +691,6 @@ footer p {
 
   #why-us-image {
     text-align: center;
-  }
-
-  #why-us-image img {
-    width: 100%;
   }
 
   #get-started-content {
@@ -715,10 +710,6 @@ footer p {
   #get-started-image-wrapper {
     text-align: center;
     width: 100%;
-  }
-
-  #get-started-image-wrapper img {
-    width: 65%;
   }
 
   #faqs {
@@ -794,6 +785,13 @@ footer p {
   header .secondary-button {
     padding: 8px 12px;
     font-size: 0.8rem;
+  }
+
+  #key-value-image img,
+  #why-us-image img,
+  .car-owner-image-wrapper img,
+  #get-started-image-wrapper img {
+    width: 80%;
   }
 
   #hero-overlay {
