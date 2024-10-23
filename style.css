@@ -791,7 +791,7 @@ footer p {
   #why-us-image img,
   .car-owner-image-wrapper img,
   #get-started-image-wrapper img {
-    width: 80%;
+    width: 100%;
   }
 
   #hero-overlay {
