@@ -612,6 +612,10 @@ footer p {
     width: 30%;
   }
 
+  header .secondary-button {
+    width: auto;
+  }
+
   nav {
     display: none;
   }
@@ -788,7 +792,6 @@ footer p {
   header .secondary-button {
     padding: 8px 12px;
     font-size: 0.8rem;
-    width: 190px;
   }
 
   #key-value-image img,
