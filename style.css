@@ -588,6 +588,12 @@ select {
   box-shadow: -1px 15px 55px 0px rgba(189, 232, 255, 1);
 }
 
+form button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+/** Footer */
 footer {
   background-color: var(--light-background-color);
   color: var(--secondary-color);
